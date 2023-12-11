@@ -6,3 +6,6 @@ body {
   background-color: #383838;
   overflow-x: hidden;
 }
+.strike {
+  text-decoration: line-through;
+}
