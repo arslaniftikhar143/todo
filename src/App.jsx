@@ -135,7 +135,7 @@ function TodoItem({ todo }) {
               xmlns:xlink="http://www.w3.org/1999/xlink"
               aria-hidden="true"
               role="img"
-              class="component-iconify MuiBox-root css-1t9pz9x iconify iconify--eva"
+              className="component-iconify MuiBox-root css-1t9pz9x iconify iconify--eva"
               width="2em"
               height="2em"
               viewBox="0 0 24 24"
@@ -147,7 +147,7 @@ function TodoItem({ todo }) {
             </svg>
           ) : (
             <svg
-              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-1shn170"
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-1shn170"
               focusable="false"
               aria-hidden="true"
               width="2em"
@@ -155,7 +155,7 @@ function TodoItem({ todo }) {
               viewBox="0 0 24 24"
               fill="currentColor"
               data-testid="CancelIcon"
-              tabindex="-1"
+              tabIndex="-1"
               title="Cancel"
             >
               <path d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"></path>
@@ -178,7 +178,7 @@ function TodoItem({ todo }) {
             xmlns:xlink="http://www.w3.org/1999/xlink"
             aria-hidden="true"
             role="img"
-            class="component-iconify MuiBox-root css-1t9pz9x iconify iconify--solar"
+            className="component-iconify MuiBox-root css-1t9pz9x iconify iconify--solar"
             width="2em"
             height="2em"
             viewBox="0 0 24 24"
@@ -189,9 +189,9 @@ function TodoItem({ todo }) {
             ></path>
             <path
               fill="currentColor"
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M11.596 22h.808c2.783 0 4.174 0 5.08-.886c.904-.886.996-2.339 1.181-5.245l.267-4.188c.1-1.577.15-2.366-.303-2.865c-.454-.5-1.22-.5-2.753-.5H8.124c-1.533 0-2.3 0-2.753.5c-.454.5-.404 1.288-.303 2.865l.267 4.188c.185 2.906.277 4.36 1.182 5.245c.905.886 2.296.886 5.079.886Zm-1.35-9.811c-.04-.434-.408-.75-.82-.707c-.413.043-.713.43-.672.864l.5 5.263c.04.434.408.75.82.707c.413-.043.713-.43.672-.864l-.5-5.263Zm4.329-.707c.412.043.713.43.671.864l-.5 5.263c-.04.434-.409.75-.82.707c-.413-.043-.713-.43-.672-.864l.5-5.263c.04-.434.409-.75.82-.707Z"
-              clip-rule="evenodd"
+              clipRule="evenodd"
             ></path>
           </svg>
         </button>
