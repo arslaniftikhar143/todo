@@ -11,7 +11,7 @@ import {
 function App() {
   const dispatch = useDispatch();
   const todos = useSelector((state) => state.todos.todoList);
-  console.log(todos);
+
   const [input, setInput] = useState("");
 
   const handleSubmit = (e) => {
@@ -55,10 +55,9 @@ export default App;
 
 function TodoItem({ todo }) {
   const dispatch = useDispatch();
-
   const [edit, setEdit] = useState(false);
   const [editText, setEditText] = useState(todo.title);
-  console.log(editText);
+
   return (
     <div className="mt-4 flex w-full items-center justify-between rounded-lg bg-white p-2 hover:shadow-lg">
       <h1 className={`text-xl ${todo.completed ? "strike text-gray-400" : ""}`}>
